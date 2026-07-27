@@ -6,7 +6,7 @@ import {
     ApiRow,
     sectionStyle,
     sectionTitleStyle,
-    tagStyle,
+    DemoTag,
     demoBodyStyle,
     labelStyle,
 } from '../../tools';
@@ -14,7 +14,7 @@ import {
 const PhoneDemo: React.FC = () => (
     <div style={sectionStyle}>
         <div style={sectionTitleStyle}>
-            Phone <span style={tagStyle}>手机</span>
+            Phone <DemoTag>手机</DemoTag>
         </div>
         <div style={labelStyle}>Phone 组件 — 手机界面组件。</div>
         <div style={{ ...demoBodyStyle, transform: 'scale(0.6)', transformOrigin: 'top left', height: 473 }}>

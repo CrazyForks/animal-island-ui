@@ -5,7 +5,7 @@ import {
     ApiRow,
     sectionStyle,
     sectionTitleStyle,
-    tagStyle,
+    DemoTag,
     demoBodyStyle,
     labelStyle,
     CodeBlock,
@@ -53,7 +53,7 @@ const WalletDemo: React.FC = () => {
     return (
         <div style={sectionStyle}>
             <div style={sectionTitleStyle}>
-                Wallet <span style={tagStyle}>钱包</span>
+                Wallet <DemoTag>钱包</DemoTag>
             </div>
             <div style={labelStyle}>
                 Wallet 钱包组件 — 动物主题的金币展示，奶油描边的橄榄黄胶囊配上凸的钱袋图标，悬停时钱袋轻晃。

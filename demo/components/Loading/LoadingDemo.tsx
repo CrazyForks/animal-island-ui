@@ -6,7 +6,7 @@ import {
     ApiRow,
     sectionStyle,
     sectionTitleStyle,
-    tagStyle,
+    DemoTag,
     demoBodyStyle,
     labelStyle,
 } from '../../tools';
@@ -17,7 +17,7 @@ const LoadingDemo: React.FC = () => {
     return (
         <div style={sectionStyle}>
             <div style={sectionTitleStyle}>
-                Loading <span style={tagStyle}>加载动画</span>
+                Loading <DemoTag>加载动画</DemoTag>
             </div>
             <div style={labelStyle}>
                 动物主题小岛 Loading

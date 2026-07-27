@@ -8,7 +8,7 @@ import {
     ApiRow,
     sectionStyle,
     sectionTitleStyle,
-    tagStyle,
+    DemoTag,
     demoBodyStyle,
     labelStyle,
 } from '../../tools';
@@ -58,7 +58,7 @@ const WeddingInvitationDemo: React.FC = () => {
     return (
         <div style={sectionStyle}>
             <div style={sectionTitleStyle}>
-                WeddingInvitation（仅展示，组件库暂不包含此组件） <span style={tagStyle}>婚礼请柬</span>
+                WeddingInvitation（仅展示，组件库暂不包含此组件） <DemoTag>婚礼请柬</DemoTag>
             </div>
             <div style={labelStyle}>
                 动物主题婚礼请柬，定位为「设计 → 导出图片 → 分享 / 打印」。组件本身只渲染卡面，导出按钮通过 ref
@@ -108,7 +108,7 @@ const WeddingInvitationDemo: React.FC = () => {
                     style={{
                         maxWidth: 420,
                         minWidth: 300,
-                        padding: 20,
+                        padding: 25,
                         borderRadius: 24,
                         background: '#F8F4E8',
                         display: 'flex',
